@@ -26,6 +26,9 @@
 		6186EAE42B639EF50035B34D /* CoinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186EAE32B639EF50035B34D /* CoinService.swift */; };
 		6186EAE72B639F9D0035B34D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6186EAE62B639F9D0035B34D /* SnapKit */; };
 		6186EAE92B639F9D0035B34D /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 6186EAE82B639F9D0035B34D /* SnapKit-Dynamic */; };
+		6186EAEB2B63A0490035B34D /* TrendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186EAEA2B63A0490035B34D /* TrendsCell.swift */; };
+		6186EAEE2B63A0780035B34D /* SingleCoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186EAED2B63A0780035B34D /* SingleCoinViewController.swift */; };
+		6186EAF02B63A0980035B34D /* SingleCoinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186EAEF2B63A0980035B34D /* SingleCoinViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,9 @@
 		6186EADE2B639EB00035B34D /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 		6186EAE02B639EC80035B34D /* NetworkTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTask.swift; sourceTree = "<group>"; };
 		6186EAE32B639EF50035B34D /* CoinService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinService.swift; sourceTree = "<group>"; };
+		6186EAEA2B63A0490035B34D /* TrendsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsCell.swift; sourceTree = "<group>"; };
+		6186EAED2B63A0780035B34D /* SingleCoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCoinViewController.swift; sourceTree = "<group>"; };
+		6186EAEF2B63A0980035B34D /* SingleCoinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCoinViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				6186EACA2B639A2D0035B34D /* Trends */,
+				6186EAEC2B63A0620035B34D /* SingleCoin */,
 				6186EAD82B639D8B0035B34D /* Models */,
 				6186EADB2B639E780035B34D /* NetworkClient */,
 				6186EAE22B639EE10035B34D /* Services */,
@@ -101,6 +108,7 @@
 			children = (
 				6186EAB82B6394310035B34D /* TrendsViewController.swift */,
 				6186EAC82B639A250035B34D /* TrendsViewModel.swift */,
+				6186EAEA2B63A0490035B34D /* TrendsCell.swift */,
 			);
 			path = Trends;
 			sourceTree = "<group>";
@@ -142,6 +150,15 @@
 				6186EAE32B639EF50035B34D /* CoinService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		6186EAEC2B63A0620035B34D /* SingleCoin */ = {
+			isa = PBXGroup;
+			children = (
+				6186EAED2B63A0780035B34D /* SingleCoinViewController.swift */,
+				6186EAEF2B63A0980035B34D /* SingleCoinViewModel.swift */,
+			);
+			path = SingleCoin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,12 +241,15 @@
 			files = (
 				6186EADA2B639D9E0035B34D /* CoinModel.swift in Sources */,
 				6186EAD32B639D220035B34D /* UIColor+Ext.swift in Sources */,
+				6186EAEB2B63A0490035B34D /* TrendsCell.swift in Sources */,
+				6186EAEE2B63A0780035B34D /* SingleCoinViewController.swift in Sources */,
 				6186EAC92B639A250035B34D /* TrendsViewModel.swift in Sources */,
 				6186EADD2B639E910035B34D /* NetworkClient.swift in Sources */,
 				6186EAD12B639CFE0035B34D /* UITableViewCell+Ext.swift in Sources */,
 				6186EACD2B639CB70035B34D /* Observable.swift in Sources */,
 				6186EAB92B6394310035B34D /* TrendsViewController.swift in Sources */,
 				6186EAB52B6394310035B34D /* AppDelegate.swift in Sources */,
+				6186EAF02B63A0980035B34D /* SingleCoinViewModel.swift in Sources */,
 				6186EAD72B639D5E0035B34D /* UIStackView+Ext.swift in Sources */,
 				6186EAE12B639EC80035B34D /* NetworkTask.swift in Sources */,
 				6186EAD52B639D3A0035B34D /* String+Ext.swift in Sources */,

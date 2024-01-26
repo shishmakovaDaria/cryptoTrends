@@ -15,9 +15,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         window = UIWindow(windowScene: windowScene)
-//        let viewModel = TrendsViewModel()
-//        let trendsViewController = TrendsViewController(viewModel: viewModel)
-        let trendsViewController = TrendsViewController()
+        let viewModel = TrendsViewModel()
+        let trendsViewController = TrendsViewController(viewModel: viewModel)
         let navigationController = UINavigationController(rootViewController: trendsViewController)
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
