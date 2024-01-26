@@ -24,6 +24,8 @@
 		6186EADF2B639EB00035B34D /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186EADE2B639EB00035B34D /* NetworkRequest.swift */; };
 		6186EAE12B639EC80035B34D /* NetworkTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186EAE02B639EC80035B34D /* NetworkTask.swift */; };
 		6186EAE42B639EF50035B34D /* CoinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186EAE32B639EF50035B34D /* CoinService.swift */; };
+		6186EAE72B639F9D0035B34D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6186EAE62B639F9D0035B34D /* SnapKit */; };
+		6186EAE92B639F9D0035B34D /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 6186EAE82B639F9D0035B34D /* SnapKit-Dynamic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6186EAE72B639F9D0035B34D /* SnapKit in Frameworks */,
+				6186EAE92B639F9D0035B34D /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +160,10 @@
 			dependencies = (
 			);
 			name = cryptoTrends;
+			packageProductDependencies = (
+				6186EAE62B639F9D0035B34D /* SnapKit */,
+				6186EAE82B639F9D0035B34D /* SnapKit-Dynamic */,
+			);
 			productName = cryptoTrends;
 			productReference = 6186EAB12B6394310035B34D /* cryptoTrends.app */;
 			productType = "com.apple.product-type.application";
@@ -184,6 +192,9 @@
 				Base,
 			);
 			mainGroup = 6186EAA82B6394310035B34D;
+			packageReferences = (
+				6186EAE52B639F9D0035B34D /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 6186EAB22B6394310035B34D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -447,6 +458,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6186EAE52B639F9D0035B34D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6186EAE62B639F9D0035B34D /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6186EAE52B639F9D0035B34D /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		6186EAE82B639F9D0035B34D /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6186EAE52B639F9D0035B34D /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6186EAA92B6394310035B34D /* Project object */;
 }
