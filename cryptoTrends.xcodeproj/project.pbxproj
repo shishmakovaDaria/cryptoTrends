@@ -13,6 +13,13 @@
 		6186EABE2B6394330035B34D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6186EABD2B6394330035B34D /* Assets.xcassets */; };
 		6186EAC12B6394330035B34D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6186EABF2B6394330035B34D /* LaunchScreen.storyboard */; };
 		6186EAC92B639A250035B34D /* TrendsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186EAC82B639A250035B34D /* TrendsViewModel.swift */; };
+		6186EACD2B639CB70035B34D /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186EACC2B639CB70035B34D /* Observable.swift */; };
+		6186EACF2B639CCF0035B34D /* SFNSExpanded-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6186EACE2B639CCF0035B34D /* SFNSExpanded-Bold.ttf */; };
+		6186EAD12B639CFE0035B34D /* UITableViewCell+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186EAD02B639CFE0035B34D /* UITableViewCell+Ext.swift */; };
+		6186EAD32B639D220035B34D /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186EAD22B639D220035B34D /* UIColor+Ext.swift */; };
+		6186EAD52B639D3A0035B34D /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186EAD42B639D3A0035B34D /* String+Ext.swift */; };
+		6186EAD72B639D5E0035B34D /* UIStackView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186EAD62B639D5E0035B34D /* UIStackView+Ext.swift */; };
+		6186EADA2B639D9E0035B34D /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186EAD92B639D9E0035B34D /* CoinModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		6186EAC02B6394330035B34D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6186EAC22B6394330035B34D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6186EAC82B639A250035B34D /* TrendsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsViewModel.swift; sourceTree = "<group>"; };
+		6186EACC2B639CB70035B34D /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		6186EACE2B639CCF0035B34D /* SFNSExpanded-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFNSExpanded-Bold.ttf"; sourceTree = "<group>"; };
+		6186EAD02B639CFE0035B34D /* UITableViewCell+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Ext.swift"; sourceTree = "<group>"; };
+		6186EAD22B639D220035B34D /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		6186EAD42B639D3A0035B34D /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		6186EAD62B639D5E0035B34D /* UIStackView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Ext.swift"; sourceTree = "<group>"; };
+		6186EAD92B639D9E0035B34D /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +71,8 @@
 			isa = PBXGroup;
 			children = (
 				6186EACA2B639A2D0035B34D /* Trends */,
+				6186EAD82B639D8B0035B34D /* Models */,
+				6186EACB2B639C900035B34D /* Helpers */,
 				6186EAB42B6394310035B34D /* AppDelegate.swift */,
 				6186EAB62B6394310035B34D /* SceneDelegate.swift */,
 				6186EABD2B6394330035B34D /* Assets.xcassets */,
@@ -73,6 +89,27 @@
 				6186EAC82B639A250035B34D /* TrendsViewModel.swift */,
 			);
 			path = Trends;
+			sourceTree = "<group>";
+		};
+		6186EACB2B639C900035B34D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6186EACC2B639CB70035B34D /* Observable.swift */,
+				6186EACE2B639CCF0035B34D /* SFNSExpanded-Bold.ttf */,
+				6186EAD02B639CFE0035B34D /* UITableViewCell+Ext.swift */,
+				6186EAD22B639D220035B34D /* UIColor+Ext.swift */,
+				6186EAD42B639D3A0035B34D /* String+Ext.swift */,
+				6186EAD62B639D5E0035B34D /* UIStackView+Ext.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6186EAD82B639D8B0035B34D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6186EAD92B639D9E0035B34D /* CoinModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6186EACF2B639CCF0035B34D /* SFNSExpanded-Bold.ttf in Resources */,
 				6186EAC12B6394330035B34D /* LaunchScreen.storyboard in Resources */,
 				6186EABE2B6394330035B34D /* Assets.xcassets in Resources */,
 			);
@@ -145,9 +183,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6186EADA2B639D9E0035B34D /* CoinModel.swift in Sources */,
+				6186EAD32B639D220035B34D /* UIColor+Ext.swift in Sources */,
 				6186EAC92B639A250035B34D /* TrendsViewModel.swift in Sources */,
+				6186EAD12B639CFE0035B34D /* UITableViewCell+Ext.swift in Sources */,
+				6186EACD2B639CB70035B34D /* Observable.swift in Sources */,
 				6186EAB92B6394310035B34D /* TrendsViewController.swift in Sources */,
 				6186EAB52B6394310035B34D /* AppDelegate.swift in Sources */,
+				6186EAD72B639D5E0035B34D /* UIStackView+Ext.swift in Sources */,
+				6186EAD52B639D3A0035B34D /* String+Ext.swift in Sources */,
 				6186EAB72B6394310035B34D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,7 +262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +319,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -297,8 +341,9 @@
 				INFOPLIST_FILE = cryptoTrends/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +351,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shishmakovaDaria.practicum.cryptoTrends;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -324,8 +373,9 @@
 				INFOPLIST_FILE = cryptoTrends/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,9 +383,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shishmakovaDaria.practicum.cryptoTrends;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
