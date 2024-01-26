@@ -20,6 +20,10 @@
 		6186EAD52B639D3A0035B34D /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186EAD42B639D3A0035B34D /* String+Ext.swift */; };
 		6186EAD72B639D5E0035B34D /* UIStackView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186EAD62B639D5E0035B34D /* UIStackView+Ext.swift */; };
 		6186EADA2B639D9E0035B34D /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186EAD92B639D9E0035B34D /* CoinModel.swift */; };
+		6186EADD2B639E910035B34D /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186EADC2B639E910035B34D /* NetworkClient.swift */; };
+		6186EADF2B639EB00035B34D /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186EADE2B639EB00035B34D /* NetworkRequest.swift */; };
+		6186EAE12B639EC80035B34D /* NetworkTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186EAE02B639EC80035B34D /* NetworkTask.swift */; };
+		6186EAE42B639EF50035B34D /* CoinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186EAE32B639EF50035B34D /* CoinService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,10 @@
 		6186EAD42B639D3A0035B34D /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		6186EAD62B639D5E0035B34D /* UIStackView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Ext.swift"; sourceTree = "<group>"; };
 		6186EAD92B639D9E0035B34D /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		6186EADC2B639E910035B34D /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		6186EADE2B639EB00035B34D /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		6186EAE02B639EC80035B34D /* NetworkTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTask.swift; sourceTree = "<group>"; };
+		6186EAE32B639EF50035B34D /* CoinService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +80,8 @@
 			children = (
 				6186EACA2B639A2D0035B34D /* Trends */,
 				6186EAD82B639D8B0035B34D /* Models */,
+				6186EADB2B639E780035B34D /* NetworkClient */,
+				6186EAE22B639EE10035B34D /* Services */,
 				6186EACB2B639C900035B34D /* Helpers */,
 				6186EAB42B6394310035B34D /* AppDelegate.swift */,
 				6186EAB62B6394310035B34D /* SceneDelegate.swift */,
@@ -110,6 +120,24 @@
 				6186EAD92B639D9E0035B34D /* CoinModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		6186EADB2B639E780035B34D /* NetworkClient */ = {
+			isa = PBXGroup;
+			children = (
+				6186EADC2B639E910035B34D /* NetworkClient.swift */,
+				6186EADE2B639EB00035B34D /* NetworkRequest.swift */,
+				6186EAE02B639EC80035B34D /* NetworkTask.swift */,
+			);
+			path = NetworkClient;
+			sourceTree = "<group>";
+		};
+		6186EAE22B639EE10035B34D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6186EAE32B639EF50035B34D /* CoinService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,12 +214,16 @@
 				6186EADA2B639D9E0035B34D /* CoinModel.swift in Sources */,
 				6186EAD32B639D220035B34D /* UIColor+Ext.swift in Sources */,
 				6186EAC92B639A250035B34D /* TrendsViewModel.swift in Sources */,
+				6186EADD2B639E910035B34D /* NetworkClient.swift in Sources */,
 				6186EAD12B639CFE0035B34D /* UITableViewCell+Ext.swift in Sources */,
 				6186EACD2B639CB70035B34D /* Observable.swift in Sources */,
 				6186EAB92B6394310035B34D /* TrendsViewController.swift in Sources */,
 				6186EAB52B6394310035B34D /* AppDelegate.swift in Sources */,
 				6186EAD72B639D5E0035B34D /* UIStackView+Ext.swift in Sources */,
+				6186EAE12B639EC80035B34D /* NetworkTask.swift in Sources */,
 				6186EAD52B639D3A0035B34D /* String+Ext.swift in Sources */,
+				6186EADF2B639EB00035B34D /* NetworkRequest.swift in Sources */,
+				6186EAE42B639EF50035B34D /* CoinService.swift in Sources */,
 				6186EAB72B6394310035B34D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
